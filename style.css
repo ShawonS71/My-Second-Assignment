@@ -1,6 +1,8 @@
 body {
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     width: 75%;
+    margin: 20px 30px;
 
 }
 
@@ -12,12 +14,11 @@ body {
     background-color: navy;
     box-sizing: 50%;
     color: white;
-
-
     width: 80%;
     height: 400px;
     margin-top: 30px;
     margin-left: 280px;
+    margin-bottom: 20px;
     padding: 15px 50px;
     border-radius: 25px;
     cursor: pointer;
