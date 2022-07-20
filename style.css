@@ -2,7 +2,7 @@ body {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     width: 75%;
-    margin: 20px 30px;
+    margin: 30px 60px;
 
 }
 
@@ -136,6 +136,10 @@ body {
  Upcoming-match,group and Blog-END
  *********************************/
 
+/*---------------------
+   Six-box-section-start 
+ ----------------------*/
+
 .six-box-section {
     display: flex;
     margin-left: 200px;
@@ -171,5 +175,48 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-right: 180px;
+
+}
+
+/*----------------------- 
+    Six-box-section-End 
+---------------------------*/
+
+
+footer {
+    background-color: dimgray;
+    margin-left: 280px;
+    height: 200px;
+    width: 1260px;
+
+}
+
+footer .goal {
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 5px 2px;
+}
+
+footer .contact-div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 0%;
+    margin-bottom: 280px;
+
+}
+
+.contact-div .div text {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    row-gap: 10px;
+    height: auto;
+    width: 20px;
+
 
 }
