@@ -142,7 +142,7 @@ body {
 
 
 .six {
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.192);
     height: 350px;
     border-radius: 10px;
     padding: 10px;
