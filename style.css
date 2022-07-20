@@ -1,3 +1,29 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.the-greatest-show {
+    display: flex;
+    background-color: navy;
+    box-sizing: 50%;
+    color: white;
+    text-align: justify;
+
+    width: 750px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 450px;
+    padding: 15px 50px;
+    border-radius: 25px;
+}
+
+.the-greatest-show p {
+    margin-right: 40px;
+
+}
+
+.the-greatest-show img {
+    width: 347px;
+}
+
+.watch-live-button {}
