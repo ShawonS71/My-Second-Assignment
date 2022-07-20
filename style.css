@@ -2,6 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/*-----------------------------
+ Bonner-box-decoration- start
+------------------------------*/
 .the-greatest-show {
     display: flex;
     background-color: navy;
@@ -28,12 +31,20 @@ body {
 }
 
 
-.the-greatest-show span {
+.the-greatest-show .button {
+    display: flex;
     background-color: red;
     text-decoration: none;
     padding: 5px 10px;
     color: white;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 10 0;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+    text-align: center;
+    cursor: progress;
+
 
 }
