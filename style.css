@@ -181,7 +181,9 @@ body {
 /*----------------------- 
     Six-box-section-End 
 ---------------------------*/
-
+/*@@@@@@@@@@@@@@@@@@@@@ 
+      footer-tag
+ @@@@@@@@@@@@@@@@@@@@@@@*/
 
 footer {
     background-color: rgb(21, 2, 58);
@@ -189,6 +191,10 @@ footer {
     height: 200px;
     width: 1260px;
 
+}
+
+hr {
+    border: 1px solid rgba(128, 128, 128, 0.466);
 }
 
 footer .goal {
