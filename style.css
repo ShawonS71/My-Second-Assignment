@@ -26,4 +26,10 @@ body {
     width: 347px;
 }
 
-.watch-live-button {}
+
+.the-greatest-show span {
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+}
