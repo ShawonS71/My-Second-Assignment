@@ -63,6 +63,14 @@ body {
     cursor: progress;
 }
 
+/*@@@@@@@@@@@@@@@@@@ 
+        animation-add
+     @@@@@@@@@@@@@@@@@@@@*/
+.the-greatest-show .button :hover {
+    width: 200px;
+
+}
+
 /*-----------------------------
   Bonner-box-decoration- End
   ------------------------------*/
