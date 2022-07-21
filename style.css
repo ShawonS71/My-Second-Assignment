@@ -1,5 +1,5 @@
 body {
-    border: 3px solid red;
+
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     width: 80%;
@@ -25,6 +25,9 @@ body {
 
 }
 
+/*-------------------- 
+        bonner-medea-quary 
+   -------------------------- */
 @media screen and (max-width: 480px) {
     .the-greatest-show {
         grid-template-colum: repeat(1, 1fr);
