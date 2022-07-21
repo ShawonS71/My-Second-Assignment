@@ -33,6 +33,12 @@ body {
 
     }
 
+    .the-greatest-show p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
 }
 
 @media screen and(min-width:481px) and(max-width:768px) {
