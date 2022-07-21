@@ -31,6 +31,7 @@ body {
 
 
 
+
 }
 
 .the-greatest-show p {
@@ -57,17 +58,26 @@ body {
     margin: 10 0;
     border: none;
     outline: none;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 15px;
     text-align: center;
     cursor: progress;
+    transition: width 5s linear;
+
 }
 
 /*@@@@@@@@@@@@@@@@@@ 
         animation-add
      @@@@@@@@@@@@@@@@@@@@*/
+
+.Brazil-introduction .button {
+    transition: 5s linear;
+}
+
 .the-greatest-show .button :hover {
     width: 200px;
+    transition: 5s linear;
+
 
 }
 
