@@ -22,6 +22,7 @@ body {
     padding: 15px 50px;
     border-radius: 25px;
     cursor: pointer;
+
 }
 
 .the-greatest-show .Brazil-introduction {
@@ -71,40 +72,54 @@ body {
    Upcoming-match,group and Blog- Srart 
    **************************************/
 
-.up-coming-father-div {
+.side-box {
+
+
+
     margin-top: 80px;
     justify-content: center;
 
     display: flex;
     flex-direction: column;
     background-color: navy;
-    height: 200px;
-    width: 220px;
+    height: 250px;
+    width: 290px;
     margin-left: 80px;
     border-radius: 10px;
-    position: sticky;
+    /* position: sticky; */
+
 }
 
-.Upcoming-match {
+nav li {
+    list-style: none;
+}
+
+.upcoming-match {
     display: flex;
+    flex-direction: column;
+    /* display: flex; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: aliceblue;
     text-decoration: none;
     height: 40px;
     width: 180px;
-    margin-left: 20px;
+    /* margin-left: 5px; */
     margin-bottom: 12px;
     border-radius: 8px;
     font-weight: 700;
+    padding: 10px 20px;
+    /* text-decoration: none; */
 
 }
 
 
 .group {
     display: flex;
+    flex-direction: column;
+    /* display: flex; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: aliceblue;
     text-decoration: none;
     height: 40px;
@@ -113,11 +128,14 @@ body {
     margin-bottom: 12px;
     border-radius: 8px;
     font-weight: 700;
+    padding: 10px 20px;
 }
 
 .blog {
-
     display: flex;
+    flex-direction: column;
+
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     background-color: red;
@@ -125,9 +143,11 @@ body {
     height: 40px;
     width: 180px;
     margin-left: 20px;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
     border-radius: 8px;
     font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 12px;
 
 
 }
