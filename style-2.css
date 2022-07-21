@@ -242,7 +242,7 @@ nav li {
     gap: 15px;
     margin-top: 80px;
     height: auto;
-    width: 400px;
+    width: 500px;
 }
 
 @media screen and (max-width: 480px) {
@@ -259,16 +259,33 @@ nav li {
         flex-direction: column;
     }
 
-    .Upcoming-group-blog
+
 }
 
 .six {
-
     border: 1px solid rgba(128, 128, 128, 0.192);
     height: 350px;
     border-radius: 10px;
     padding: 10px;
-    width: auto;
+    width: 500px;
+}
+
+.six .span {
+    display: flex;
+    width: 200px;
+    height: 180px;
+
+
+
+
+}
+
+/* grid: flex;
+    grid-template: repeat(1, 1fr);
+    flex-direction: row;
+    width: 600px; */
+
+
 }
 
 
