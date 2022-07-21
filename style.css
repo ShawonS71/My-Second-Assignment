@@ -70,13 +70,13 @@ body {
         animation-add
      @@@@@@@@@@@@@@@@@@@@*/
 
-.Brazil-introduction .button {
-    transition: 5s linear;
+.the-greatest-show #animation-button {
+    transition: width 5s linear;
 }
 
 .the-greatest-show .button :hover {
     width: 200px;
-    transition: 5s linear;
+
 
 
 }
