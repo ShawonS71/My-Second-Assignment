@@ -15,7 +15,7 @@ body {
     background-color: navy;
     justify-content: center;
     color: white;
-    width: 75%;
+    /* width: 75%; */
     height: auto;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -66,9 +66,10 @@ body {
     font-size: 10px;
     margin-top: 10px;
     height: 150px;
-    width: 40%;
+    /* width: 40%; */
     text-align: left;
     word-wrap: break-word;
+
 
 
 }
@@ -95,6 +96,7 @@ body {
     font-size: 15px;
     text-align: center;
     cursor: progress;
+
     transition: width 5s linear;
 
 }
@@ -109,6 +111,7 @@ body {
 
 .the-greatest-show .button :hover {
     width: 200px;
+
 
 
 
@@ -141,13 +144,16 @@ body {
 
 }
 
-@media screen and(max-width:480px) {
-    .Upcoming-group-blog {
-        flex-direction: row;
+
+
+@media screen and (max-width: 480px) {
+    .six-box-section .Upcoming-group-blog {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+
     }
-
-
 }
+
 
 nav li {
     list-style: none;
@@ -234,8 +240,16 @@ nav li {
     width: 400px;
 }
 
+@media screen and (max-width: 480px) {
+    .six {
+        grid-template-colum: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+}
 
 .six {
+
     border: 1px solid rgba(128, 128, 128, 0.192);
     height: 350px;
     border-radius: 10px;
