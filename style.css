@@ -2,7 +2,7 @@ body {
     border: 3px solid red;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    width: 75%;
+    width: 80%;
     margin: 0px auto;
 
 }
@@ -14,13 +14,13 @@ body {
     display: flex;
     background-color: navy;
     justify-content: center;
-    box-sizing: 100;
+    /* box-sizing: 100%; */
     color: white;
-    width: 86%;
+    width: 75%;
     height: auto;
     margin-top: 30px;
     margin-bottom: 20px;
-    padding: 15px 85px;
+    padding: 15px 55px;
     border-radius: 25px;
     cursor: pointer;
 
@@ -60,14 +60,17 @@ body {
     margin-right: 40px;
     font-size: 10px;
     margin-top: 10px;
-    width: 60%;
+    height: 150px;
+    width: 40%;
+    text-align: left;
+    word-wrap: break-word;
 
 
 }
 
 .the-greatest-show img {
-    width: 24vw;
-    height: 24.8vw;
+    width: 85%;
+    height: 400px;
 }
 
 
@@ -113,7 +116,7 @@ body {
    Upcoming-match,group and Blog- Srart 
    **************************************/
 
-.side-box {
+.Upcoming-group-blog {
 
 
 
@@ -127,6 +130,14 @@ body {
     width: 290px;
     border-radius: 10px;
     padding-right: 10px;
+
+
+}
+
+@media screen and(max-width:480px) {
+    .Upcoming-group-blog {
+        flex-direction: row;
+    }
 
 
 }
