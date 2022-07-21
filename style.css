@@ -14,10 +14,10 @@ body {
     display: flex;
     background-color: navy;
     justify-content: center;
-    box-sizing: 50%;
+    box-sizing: 100;
     color: white;
-    width: 80%;
-    height: 400px;
+    width: 86%;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 15px 85px;
@@ -28,7 +28,16 @@ body {
 
 @media screen and (max-width: 480px) {
     .the-greatest-show {
-        grid-template-colum: repeat(1, 1fr)
+        grid-template-colum: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and(min-width:481px) and(max-width:768px) {
+    .the-greatest-show {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
@@ -52,7 +61,8 @@ body {
 }
 
 .the-greatest-show img {
-    width: 394px;
+    width: 24vw;
+    height: 24.8vw;
 }
 
 
@@ -207,7 +217,9 @@ nav li {
     height: 350px;
     border-radius: 10px;
     padding: 10px;
+    width: auto;
 }
+
 
 .six .banner button {
     height: 30px;
