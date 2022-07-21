@@ -14,7 +14,6 @@ body {
     display: flex;
     background-color: navy;
     justify-content: center;
-    /* box-sizing: 100%; */
     color: white;
     width: 75%;
     height: auto;
@@ -75,8 +74,10 @@ body {
 }
 
 .the-greatest-show img {
-    width: 85%;
-    height: 400px;
+    width: auto;
+    height: 300px;
+    padding: 50px 20px;
+
 }
 
 
