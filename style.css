@@ -2,7 +2,7 @@ body {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     width: 75%;
-    margin: 30px 60px;
+    margin: 0px 20px;
 
 }
 
@@ -143,6 +143,7 @@ body {
 .six-box-section {
     display: flex;
     margin-left: 200px;
+    margin-bottom: 0%;
 }
 
 .six-box {
@@ -185,11 +186,12 @@ body {
       footer-tag
  @@@@@@@@@@@@@@@@@@@@@@@*/
 
-footer {
+.footer-section {
     background-color: rgb(21, 2, 58);
-    margin-left: 280px;
-    height: 200px;
-    width: 1260px;
+    margin-left: 200px;
+
+    height: 500px;
+    width: 100%;
 
 }
 
@@ -197,7 +199,7 @@ hr {
     border: 1px solid rgba(128, 128, 128, 0.466);
 }
 
-footer .goal {
+.footer-section .goal {
     text-align: center;
     margin-top: 10px;
     color: aliceblue;
@@ -208,7 +210,7 @@ footer .contact-div {
     height: auto;
     width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 80px;
     color: aliceblue;
     text-align: center;
     margin-left: 250px;
@@ -224,6 +226,20 @@ footer .contact-div {
     row-gap: 10px;
     height: auto;
     width: 20px;
+
+
+}
+
+.social-icon .fa-brands {
+
+    font-size: 3.01em;
+    width: 200px;
+    margin-left: 250px;
+    background-color: azure;
+    height: 43px;
+    width: 65px;
+    align-items: center;
+    justify-content: center;
 
 
 }
