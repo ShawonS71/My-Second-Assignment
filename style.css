@@ -39,6 +39,10 @@ header {
     width: 100%;
 }
 
+.half-width p {
+    font-size: 10px;
+}
+
 .half-width .button {
     /* display: flex; */
     background-color: red;
