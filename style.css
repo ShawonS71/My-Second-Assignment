@@ -123,12 +123,8 @@ body {
    **************************************/
 
 .Upcoming-group-blog {
-
-
-
     margin-top: 80px;
     justify-content: center;
-
     display: flex;
     flex-direction: column;
     background-color: navy;
@@ -358,21 +354,13 @@ footer .contact-div {
 
 }
 
-.social-icon .fa-brands {
-
-    font-size: 3.01em;
-    width: 200px;
-    margin-left: 250px;
-    background-color: azure;
-    height: 43px;
-    width: 65px;
-    align-items: center;
+.social-icon {
     justify-content: center;
-
+    margin-left: 720px;
+    font-size: 40px;
 
 }
 
 /****************** 
       footer-End 
 *********************/
-y
