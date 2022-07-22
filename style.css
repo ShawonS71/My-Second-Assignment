@@ -10,7 +10,7 @@ body {
 /*-----------------------------
  Bonner-box-decoration- start
 ------------------------------*/
-.the-greatest-show {
+header {
     display: flex;
     background-color: navy;
     justify-content: center;
@@ -25,60 +25,12 @@ body {
 
 }
 
-/*-------------------- 
-        bonner-medea-quary 
-   -------------------------- */
-@media screen and (max-width: 480px) {
-    .the-greatest-show {
-        grid-template-colum: repeat(1, 1fr);
-        flex-direction: column;
-
-    }
-
-
-
+.half-width {
+    display: flex;
+    width: 50%;
 }
 
-@media screen and(min-width:481px) and(max-width:768px) {
-    .the-greatest-show {
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-    }
-}
-
-
-
-.the-greatest-show .Brazil-introduction {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-
-
-
-
-}
-
-.the-greatest-show p {
-    margin-right: 40px;
-    font-size: 10px;
-    margin-top: 10px;
-    height: 150px;
-    /* width: 40%; */
-    text-align: left;
-    word-wrap: break-word;
-
-
-
-}
-
-.the-greatest-show img {
-    width: auto;
-    height: 300px;
-    padding: 50px 20px;
-
-}
-
-
-.the-greatest-show .button {
+.half-width .button {
     display: flex;
     background-color: red;
     text-decoration: none;
@@ -94,18 +46,19 @@ body {
     cursor: progress;
 
     transition: width 5s linear;
-
 }
+
+
 
 /*@@@@@@@@@@@@@@@@@@ 
         animation-add
      @@@@@@@@@@@@@@@@@@@@*/
 
-.the-greatest-show #animation-button {
+.half-width #animation-button {
     transition: width 5s linear;
 }
 
-.the-greatest-show .button :hover {
+.half-width .button :hover {
     width: 200px;
 
 
