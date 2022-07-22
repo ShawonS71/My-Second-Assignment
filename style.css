@@ -11,9 +11,7 @@ body {
  Bonner-box-decoration- start
 ------------------------------*/
 header {
-    /* display: flex; */
     background-color: navy;
-    /* justify-content: center; */
     color: white;
     width: 80%;
     height: 550px;
