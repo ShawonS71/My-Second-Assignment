@@ -16,7 +16,7 @@ header {
     /* justify-content: center; */
     color: white;
     width: 80%;
-    height: 450px;
+    height: 550px;
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 15px 55px;
@@ -30,21 +30,28 @@ header {
     width: 100%;
 }
 
-.half-width .bonner {
-    margin-left: 600px;
+.half-width .bonner img {
+    padding: 45px 1px;
+    margin-left: 200px;
+    margin-right: 120px;
+    width: auto;
+    height: 520px;
+
+
 }
 
+
 .half-width h1 {
-    font-size: 40px;
+    font-size: 50px;
     width: 100%;
 }
 
 .half-width p {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .half-width .button {
-    /* display: flex; */
+    display: flex;
     background-color: red;
     text-decoration: none;
     padding: 5px 10px;
