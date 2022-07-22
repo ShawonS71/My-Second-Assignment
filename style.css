@@ -11,12 +11,12 @@ body {
  Bonner-box-decoration- start
 ------------------------------*/
 header {
-    display: flex;
+    /* display: flex; */
     background-color: navy;
-    justify-content: center;
+    /* justify-content: center; */
     color: white;
-    /* width: 75%; */
-    height: auto;
+    width: 80%;
+    height: 450px;
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 15px 55px;
@@ -27,11 +27,20 @@ header {
 
 .half-width {
     display: flex;
-    width: 50%;
+    width: 100%;
+}
+
+.half-width .bonner {
+    margin-left: 600px;
+}
+
+.half-width h1 {
+    font-size: 40px;
+    width: 100%;
 }
 
 .half-width .button {
-    display: flex;
+    /* display: flex; */
     background-color: red;
     text-decoration: none;
     padding: 5px 10px;
