@@ -123,9 +123,6 @@ body {
    **************************************/
 
 .Upcoming-group-blog {
-
-
-
     margin-top: 80px;
     justify-content: center;
 
@@ -156,13 +153,18 @@ body {
         flex-direction: column;
     }
 
-    .Upcoming-group-blog
 }
 
 
 nav li {
     list-style: none;
 }
+
+nav :hover {
+    background-color: indianred;
+}
+
+
 
 .upcoming-match {
     display: flex;
@@ -178,6 +180,7 @@ nav li {
     border-radius: 8px;
     font-weight: 700;
     padding: 10px 20px;
+    color: black;
 
 
 
@@ -194,30 +197,28 @@ nav li {
     text-decoration: none;
     height: 40px;
     width: 180px;
-    margin-right: 20px;
     margin-bottom: 12px;
     border-radius: 8px;
     font-weight: 700;
     padding: 10px 20px;
+    color: black;
 }
 
 .blog {
     display: flex;
     flex-direction: column;
 
-
     align-items: center;
-    justify-content: center;
+
     background-color: red;
     text-decoration: none;
     height: 40px;
     width: 180px;
-    margin-right: 20px;
-
+    margin-bottom: 12px;
     border-radius: 8px;
     font-weight: 700;
     padding: 10px 20px;
-    margin-top: 12px;
+    color: black;
 
 
 }
@@ -270,10 +271,10 @@ nav li {
     width: 500px;
 }
 
-.six .span {
-    display: flex;
-    width: 200px;
-    height: 180px;
+.six .one-part-football-div .football-flag {
+    display: flex
+        /* width: 200px;
+    height: 180px; */
 
 
 
@@ -286,7 +287,7 @@ nav li {
     width: 600px; */
 
 
-}
+
 
 
 .six .banner button {

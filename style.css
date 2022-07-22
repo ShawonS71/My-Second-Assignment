@@ -156,12 +156,15 @@ body {
         flex-direction: column;
     }
 
-    .Upcoming-group-blog
 }
 
 
 nav li {
     list-style: none;
+}
+
+nav li :hover {
+    background-color: aqua;
 }
 
 .upcoming-match {
@@ -178,6 +181,7 @@ nav li {
     border-radius: 8px;
     font-weight: 700;
     padding: 10px 20px;
+    color: black;
 
 
 
@@ -199,6 +203,7 @@ nav li {
     border-radius: 8px;
     font-weight: 700;
     padding: 10px 20px;
+    color: black;
 }
 
 .blog {
@@ -218,6 +223,7 @@ nav li {
     font-weight: 700;
     padding: 10px 20px;
     margin-top: 12px;
+    color: black;
 
 
 }
