@@ -72,7 +72,7 @@ header {
         animation-add
      @@@@@@@@@@@@@@@@@@@@*/
 
-.half-width #animation-button {
+.half-width .button {
     transition: width 5s linear;
 }
 
@@ -106,25 +106,6 @@ header {
 
 
 }
-
-
-
-@media screen and (max-width: 480px) {
-    .six-box-section .Upcoming-group-blog {
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column-reverse;
-
-    }
-}
-
-@media screen and(min-width:481px) and(max-width:768px) {
-    .Upcoming-group-blog {
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-    }
-
-}
-
 
 nav li {
     list-style: none;
@@ -195,6 +176,23 @@ nav li :hover {
 
 }
 
+@media screen and (max-width: 480px) {
+    .six-box-section .Upcoming-group-blog {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+
+    }
+}
+
+@media screen and(min-width:481px) and(max-width:768px) {
+    .Upcoming-group-blog {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+}
+
+
 /*
 ***********************************
  Upcoming-match,group and Blog-END
@@ -218,22 +216,7 @@ nav li :hover {
     width: 400px;
 }
 
-@media screen and (max-width: 480px) {
-    .six-box {
-        grid-template-colum: repeat(1, 1fr);
-        flex-direction: column;
 
-    }
-}
-
-@media screen and(min-width:481px) and(max-width:768px) {
-    .six-box {
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-    }
-
-    .Upcoming-group-blog
-}
 
 .six {
 
@@ -261,6 +244,23 @@ nav li :hover {
 
 }
 
+@media screen and (max-width: 480px) {
+    .six-box {
+        grid-template-colum: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+}
+
+@media screen and(min-width:481px) and(max-width:768px) {
+    .six-box {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    .Upcoming-group-blog
+}
+
 /*----------------------- 
     Six-box-section-End 
 ---------------------------*/
@@ -275,20 +275,7 @@ nav li :hover {
 
 }
 
-@media screen and (max-width: 480px) {
-    .footer-section {
-        grid-template-colum: repeat(1, 1fr);
-        flex-direction: column;
 
-    }
-}
-
-@media screen and(min-width:481px) and(max-width:768px) {
-    .footer-section {
-        grid-template-columns: repeat(2, 1fr);
-        flex-direction: column;
-    }
-}
 
 hr {
     border: 1px solid rgba(128, 128, 128, 0.466);
@@ -330,6 +317,21 @@ footer .contact-div {
     margin-left: 720px;
     font-size: 40px;
 
+}
+
+@media screen and (max-width: 480px) {
+    .footer-section {
+        grid-template-colum: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+}
+
+@media screen and(min-width:481px) and(max-width:768px) {
+    .footer-section {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
 }
 
 /****************** 
